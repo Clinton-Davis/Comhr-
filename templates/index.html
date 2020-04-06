@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<p>To send a message use /USERNAME/MESSAGE</p>
+<form method="POST">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username"/>
+    <button>Lets Chat!</button>
+</form>
 {% endblock %}
