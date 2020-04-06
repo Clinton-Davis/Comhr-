@@ -8,10 +8,8 @@ messages = []
 
 def add_messages(username, message):
     """Add messages to the `messages` list"""
-    now = datetime.now().strptime("%H:%M:%S")
+    now = datetime.now().strftime("%H:%M:%S")
     messages.append("({}) {}: {}".format(now, username, message))
-    
-
 
 
 def get_all_messages():
