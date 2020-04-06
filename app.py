@@ -5,8 +5,18 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1>INDEX<h1>'
+    """Main Pain with instuction"""
+    return "To send a message use /USERNAME/MESSAGE"
 
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route('/<username>')
+def user(username):
+    return "HI " + username
+
+@app.route('/<username>/<message>')
+def send_message(username, message):
+    return "{0}: {1}".format(username, message)
+
+
+
+app.run(host=os.getenv('IP'),debug=True)
    
