@@ -1,13 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="indexHeading">
 <h1 class="">Lets have a chat!</h1>
+
 <h3>Put your username in the box to start the chat</h3>
+</div>
 <div class="form">
 <form method="POST">
     <label for="username">Username</label>
     <input type="text" id="username" name="username"/>
-    <button class="">Lets Chat!</button>
+    <button class="btn">Lets Chat!</button>
 </form>
 </div>
 {% endblock %}
