@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
-
-<h1>Hello {{ username }}</h1>
-<h3>Whats this page all about</h3>
-<p>This is a liitle Chat App that was a project of mine in the Code Ins course.<br>
-Its just to deminstarate how to use Flask and how it works.<br>
-So sit back and have a wee chat with someone.<br>
-All the Best.<br>
-Clint.</p>
+<div class="about">
+    <h1 class="aboutHeading">Hello {{ username }}</h1>
+    <h3 class="Subheading">Whats this page all about?</h3>
+    <p class="about-P">This is a liitle Chat App that was a project of mine in the Code Ins course.<br>
+        Its just to deminstarate how to use Flask and how it works.<br>
+        So sit back and have a wee chat with someone.<br>
+        All the Best.<br>
+        Clint.</p>
+</div>
 
 {% endblock %}
