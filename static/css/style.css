@@ -1,5 +1,7 @@
 
-
+html {
+    height: 100vh;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +9,16 @@
 }
 body {
     font-family: 'Indie Flower', cursive;
+    background-image: url(../images/chat-clipart-.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: space;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    height: auto; 
+    min-height: 80vh;
 }
 nav {
     display: flex;
@@ -21,32 +33,46 @@ nav {
 }  
 .nav-links {
     display: flex;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: space-evenly;
+    width: 50%;
     list-style: none;
 }
 a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(248, 248, 248);
     
 }
 .logo {
     font-size: 2.5rem;
     color: rgb(248, 248, 248);
+    padding: 0.125em;
 }
 
 h1 {
     font-family: 'Righteous', cursive;
+    text-align: center;
 }
 
 
-.about {
+.backGround {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid;
+    padding: 0.5em;
+    height: auto;
+    margin: 3em 1em;
+    background-color: rgba(250, 248, 248, 0.9);
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
+
 .aboutHeading {
     font-size: 2.7rem;
     margin: 7px;
@@ -101,4 +127,48 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1em;
+}
+textarea {
+    border: 1px solid black;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    min-height: 10vh;
+
+
+}
+.feet {
+    color: whitesmoke;
+}
+.feet-bg {
+    background-image: linear-gradient(-45deg,
+            rgb(27, 240, 8),
+            rgb(250, 95, 95),
+            rgb(94, 102, 241));
+    color: transparent;
+    font-weight: 800;
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: bg--animation 6s ease-in-out infinite alternate;
+    -webkit-animation: bg--animation 6s ease-in-out infinite alternate;
+}
+
+@keyframes bg--animation {
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
 }

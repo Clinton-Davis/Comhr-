@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="backGround">
     <h1>Welcome {{ username }}</h1>
 
     <form action="" method="POST">
         <textarea name="message" id="message" cols="30" rows="5"></textarea>
         <br>
-        <button>Send Message</button>
+        <button class="btn">SEND MESSAGE</button>
         
     </form>
 
@@ -16,7 +17,7 @@
 
 
 
-  <!-- <script>
+  <script>
         /* this refreshes the page evey 5 seconds*/
         let textbox = document.getElementById("message")
         let timer = setTimeout(function(){
@@ -31,5 +32,6 @@
                 location.reload();
             }, 7000 )
         }
-    </script>--> 
+    </script>
+</div>
 {% endblock %}

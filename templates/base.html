@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css" />
-    <title>Chat chat chat</title>
+    <title>Comhrá</title>
 </head>
-<body>
+<body class="body">
     <nav>
        
-        <h1 class="logo">Chat Chat Chatty Chat</h1>
+        <h1 class="logo">Comhrá</h1>
     
         <ul class="nav-links">
             <li><a href="{{ url_for("index") }}">Home</a></li>
             <li><a href="{{ url_for("about") }}">About</a></li>
         </ul>
     </nav>
+    <section class="sections">
     {% block content %}
     {% endblock %}
+    </section>
+    <footer class="footer">
+        <div class="feet">CopyRight© 2020</div>
+        <div class="feet">Design:</div>
+        <div class="feet feet-bg">
+        <a href="https://github.com/Clinton-Davis" class="feet-bg" target="_blank">Clinton Davis</a>
+      </div>
+    </div>
+    </footer>
 </body>
 </html>
