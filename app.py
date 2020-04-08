@@ -33,12 +33,14 @@ def user(username):
         username = session["username"]
         message = request.form["message"]
         add_message(username, message)
-        return redirect(url_for("user", username=session["username"]))
-
-    
-        
+        return redirect(url_for("user", username=session["username"]))    
     return render_template('chat.html', username = username, chat_messages = messages)
 
 
-app.run(host=os.getenv("IP", "0.0.0.0"), port=(os.getenv("PORT", "5000")), debug=False)
+@app.route("/about.html")
+def about():
+    return render_template("about.html")
+
+
+app.run(host=os.getenv("IP", "0.0.0.0"), port=(os.getenv("PORT", "5000")), debug=True)
    
