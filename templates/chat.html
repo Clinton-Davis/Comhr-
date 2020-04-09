@@ -13,21 +13,16 @@
     <div class="chatWrap">
         <div class="time">Time: </div>
         <div class="from">From: </div>
-        <div class="message">message:</div>
+        <div class="message">Message:</div>
         {% for message in chat_messages %}
        
-            <p>{{ message.timestamp }}</p>
+            <p>{{ message.timestamp }}:</p>
        
-        
-            <p>{{ message.from }}</p>
+            <p>{{ message.from }}:</p>
        
-      
-            <p>{{ message.message }}</p>
-       
-
-
-
-
+            <p>{{ message.message }}<br>
+            ==============</p>
+            
 
         {% endfor %}
 
