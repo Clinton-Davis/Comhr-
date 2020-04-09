@@ -88,7 +88,7 @@ h1 {
 .btn {
     padding: 0.5em;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
+    margin: 10px auto;
     margin-left: auto;
     font-family: var(--mf);
     font-size: 1em;
@@ -129,11 +129,48 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
+    padding: 0.25em;
+}
+.lable {
+    font-size: 1.5rem;
+}
+#username {
+    font-family: 'Indie Flower', cursive;
+    border-radius: 5px;
+    height: 1.2rem;
+    border: 1px solid balck;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 textarea {
     border: 1px solid black;
 
+}
+
+.chatWrap {
+    display: grid;
+    grid-template-columns: 15% 15% 65%;
+    grid-template-rows: 15%;
+    font-size: 1.25rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.time {
+    grid-column: 1/2;
+    
+    
+    
+}
+.from {
+    grid-column: 2/3;
+    
+}
+.message {
+    grid-column: 3/4;
+    
 }
 .footer {
     display: flex;
@@ -146,6 +183,10 @@ textarea {
 }
 .feet {
     color: whitesmoke;
+}
+.span {
+    color: whitesmoke;
+    padding-right: 10px;
 }
 .feet-bg {
     background-image: linear-gradient(-45deg,

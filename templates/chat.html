@@ -8,16 +8,33 @@
         <textarea name="message" id="message" cols="30" rows="5"></textarea>
         <br>
         <button class="btn">SEND MESSAGE</button>
-        
+
     </form>
+    <div class="chatWrap">
+        <div class="time">Time: </div>
+        <div class="from">From: </div>
+        <div class="message">message:</div>
+        {% for message in chat_messages %}
+       
+            <p>{{ message.timestamp }}</p>
+       
+        
+            <p>{{ message.from }}</p>
+       
+      
+            <p>{{ message.message }}</p>
+       
 
-    {% for message in chat_messages %}
-    <p>({{ message.timestamp }}) {{ message.from }}: {{ message.message }}</p>
-    {% endfor %}
 
 
 
-  <!-- <script>
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- <script>
         /* this refreshes the page evey 5 seconds*/
         let textbox = document.getElementById("message")
         let timer = setTimeout(function(){
@@ -32,6 +49,6 @@
                 location.reload();
             }, 7000 )
         }
-    </script>--> 
+    </script>-->
 </div>
 {% endblock %}
