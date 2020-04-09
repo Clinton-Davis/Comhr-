@@ -6,7 +6,7 @@
 
 ---
 
-> **** Its a chat app.
+> **** is a chat app.
 
 ---
 ## Demo
@@ -34,8 +34,8 @@ The idea is to get people to chat with each other
  
 
    
-####**_About Page_**  
-    - Just a little note from me explaining what the app is about
+#### **_About Page_**  
+   - Just a little note from me explaining what the app is about
 
 ## Surface
 The Navigation Bar at the top has a full-colour collage of things all commutation related.
