@@ -11,9 +11,9 @@
 
     </form>
     <div class="chatWrap">
-        <div class="time">Time: </div>
-        <div class="from">From: </div>
-        <div class="message">Message:</div>
+        <div class="chat time">Time: </div>
+        <div class="chat from">From: </div>
+        <div class="chat message">Message:</div>
         {% for message in chat_messages %}
        
             <p>{{ message.timestamp }}:</p>
@@ -29,7 +29,7 @@
     </div>
 
 
-    <!-- <script>
+    <script>
         /* this refreshes the page evey 5 seconds*/
         let textbox = document.getElementById("message")
         let timer = setTimeout(function(){
@@ -44,6 +44,6 @@
                 location.reload();
             }, 7000 )
         }
-    </script>-->
+    </script>
 </div>
 {% endblock %}
