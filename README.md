@@ -11,7 +11,7 @@
 ---
 ## Demo
 
-A live demo can found **_[Here]()_**
+A live demo can found **_[Here](http://comhra-chat.herokuapp.com)_**
 
 ---
 <a name="ux"></a>
