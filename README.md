@@ -38,9 +38,9 @@ The idea is to get people to chat with each other
    - Just a little note from me explaining what the app is about
 
 ## Surface
-The Navigation Bar at the top has a full-colour collage of things all commutation related.
-The background image of the two ladies having a chat is what the app is all about. The Cartoon drawing is friendly and funny.
-I went for a big font from [Google Fonts](https://fonts.google.com/), called *"Righteous"* as the primary font. I chose this font because of its clean and clear look. The secondary font is *"Indie Flower"*. This one is lite handwriting and has a fun feel to it.
+  -  The Navigation Bar at the top has a full-colour collage of things all commutation related.
+     The background image of the two ladies having a chat is what the app is all about. The Cartoon drawing is friendly and      funny.
+     I went for a big font from [Google Fonts](https://fonts.google.com/), called *"Righteous"* as the primary font. I chose      this font because of its clean and clear look. The secondary font is *"Indie Flower"*. This one is lite handwriting and      has a fun feel to it.
 ---
 <a name="technologies"></a>
 ## Technologies
