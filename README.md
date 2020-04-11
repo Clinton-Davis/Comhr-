@@ -1,12 +1,12 @@
 # Comhrá
+<a name="home"></a>
 
 ----
 
 ## Flask Minnie Project - Code institute
 
 ---
-
-> **** is a chat app.
+**** is a chat app.
 
 ---
 ## Demo
@@ -129,5 +129,5 @@ Code institute - minnie Project walk through.
 
 ---
 
-[Back to top ](#toc)
+[Back to top ](#home)
 
