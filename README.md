@@ -6,7 +6,7 @@
 ## Flask Minnie Project - Code institute
 
 ---
-**** is a chat app.
+This is a chatting app made with Flask. It used a cookie to eep the username in the session, you can chat with your self or have someone else some where else have and chat.
 
 ---
 ## Demo
@@ -30,10 +30,7 @@ The idea is to get people to chat with each other
 #### **_Main Page_**
  - **-Navigation Bar-**
    - I used the Irish word for a chat in a friendly bold font.<br>
-
- 
-
-   
+  
 #### **_About Page_**  
    - Just a little note from me explaining what the app is about
 
@@ -74,6 +71,8 @@ The idea is to get people to chat with each other
 
 <a name="testing"></a>
 ## Testing
+- I have run a python 3 debug on it.
+- I have used the app in the wild to test
 
 <a name="bugs"></a>
 ## Bugs
